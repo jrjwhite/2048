@@ -1,0 +1,52 @@
+html,body{
+  overflow: hidden;
+}
+#header{
+  text-align: center;
+}
+#header > h1{
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: bold;
+}
+#header > .btn{
+  width: 100px;
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: #8f7a66;
+  font-family: Arial;
+  color: white;
+  border-radius: 10px;
+}
+#header > .btn:hover{
+  background-color: #9f8b77;
+}
+#header > p{
+  font-family: Arial;
+  font-size: 25px;
+  margin: 20px auto;
+}
+#container{
+  position: relative;
+  width: 460px;
+  height: 460px;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: #bbada0;
+}
+#container > .grid-class{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  background-color: #ccc0b3;
+}
+.number-cell{
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  line-height: 100px;
+  position: absolute;
+}
